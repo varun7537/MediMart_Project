@@ -1,0 +1,174 @@
+.page-title
+{
+    background-image: url(assets/bg_image.jpg);
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-title .title-menu
+{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 465px;
+}
+.page-title .title-menu a
+{
+    text-decoration: none;
+    color: #333;
+}
+.page-title .title-menu a:hover
+{
+    text-decoration: none;
+    color: crimson;
+}
+.page-title .title-menu li
+{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.cta 
+{
+    padding: 40px 0;
+}
+
+.cta .cta-block 
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) 
+{
+    .cta .cta-block 
+    {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.cta .cta-block .emmergency 
+{
+    background: crimson;
+}
+
+.cta .cta-block .emmergency a 
+{
+    color: #fff;
+    font-size: 30px;
+}
+
+.cta .cta-block .emmergency p 
+{
+    padding-top: 20px;
+}
+
+.cta .cta-block .top-doctor 
+{
+    background: crimson;
+}
+
+
+.cta .cta-block .top-doctor .btn-main {
+    margin-top: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    transition: all .3s ease;
+}
+
+.cta .cta-block .top-doctor .btn-main:hover 
+{
+    background: #fff;
+    color: crimson;
+}
+
+.cta .cta-block .home-delivery 
+{
+    background: crimson;
+}
+.cta .cta-block .records
+{
+    background: crimson;
+}
+
+.cta .cta-block .item 
+{
+    padding: 20px 30px;
+    -ms-flex-preferred-size: 33.33%;
+        flex-basis: 33.33%;
+}
+
+.cta .cta-block .item i, .cta .cta-block .item h2, .cta .cta-block .item p 
+{
+    transition: all .2s ease;
+    color: #fff;
+}
+
+.cta .cta-block .item i 
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.cta .cta-block .item h2 
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.cta .cta-block .item p 
+{
+    font-size: 16px;
+    line-height: 19px;
+}
+button
+{
+    height: 70px;
+    width: 250px;
+    border: 1px solid crimson;
+    color: white;
+    background-color: crimson;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.about-us-info-wrap
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-author-info-2 li
+{
+    list-style: none;
+}
+.ltn__list-item-1 li
+{
+    list-style: none;
+}
+.about-author-info-2 .about-author-info-2-contact
+{
+    text-align: center;
+}
+.about-contact-icon i
+{
+    font-size: 25px;
+    margin-top: 10px;
+    padding-right: 15px;
+    color: crimson;
+}
+.ltn__list-item-1 li i 
+{
+    color: crimson;
+}

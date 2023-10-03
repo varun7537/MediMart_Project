@@ -1,0 +1,63 @@
+body{
+           
+            
+    padding: 50px 120px;  
+            
+    justify-content: center;
+   
+    
+   
+   
+}
+
+.container{
+    
+    
+    height:fit-content; 
+    border: 2px solid rgba(255,255,255,2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding: 50px 20px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 18px;
+   margin: 10px  20px;
+}
+
+textarea            {
+padding-right: 20;
+padding-bottom: 0;
+}
+
+
+
+
+button{
+background-color: rgb(14, 250, 14);
+padding: 2px 10px;
+border-radius: 10px;
+font-size: 18px;
+float:right;
+margin: 0px 250px 0px 20px;
+margin-top: -30;
+}
+h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+h2{
+
+font-size: 24px;
+padding: 15px 0px;
+}
+h3{
+    font-size: 18px;
+}
+
+
+
+
+

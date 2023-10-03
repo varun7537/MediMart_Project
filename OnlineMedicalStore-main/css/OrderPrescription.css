@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script:wght@500&family=Domine:wght@500&family=Fira+Sans&family=Libre+Caslon+Text:ital@1&family=Lora:wght@500&family=Merriweather:wght@300&family=PT+Serif&family=Playfair+Display:wght@500&family=Roboto:wght@400;500&family=Satisfy&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body 
+{
+    font-size: 15px;
+    color: #777777;
+    line-height: 1.3em;
+    font-weight: 400;
+    background: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+}
+.order-box
+{
+    display: flex;
+    margin: 25px;
+}
+.order-box .leftside-container
+{
+    float: left;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.order-box .rightside-container
+{
+    float: right;
+}
+.leftside-container .container-fluid
+{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #b2bec3;
+}
+.container-fluid
+{
+    padding: 30px;
+}
+.rightside-container .container-fluid
+{
+    height: 55%;
+    padding: 30px;
+    border: 1px solid #b2bec3;
+    border-radius: 10px;
+}
+.container-fluid .right-side
+{
+    padding-left: 50px;
+}
+.line 
+{
+    border-left: 1px solid black;
+    height: 640px;
+}
+.button
+{
+    color: white;
+    background-color: #90f032;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #90f032;
+    border-radius: 10px;
+    line-height: 10px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.first-option
+{
+    padding-top: 30px;
+}
+.first-option label
+{
+    font-size: 20px;
+}
+.first-option span i
+{
+    font-size: 25px;
+}
+.second-option
+{
+    padding-top: 30px;
+}
+.second-option label
+{
+    font-size: 20px;
+}
+.second-option span i
+{
+    font-size: 25px;
+}
